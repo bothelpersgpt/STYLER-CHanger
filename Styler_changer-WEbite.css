@@ -1,0 +1,66 @@
+/* Reset some default styles */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #3494e6, #ec6ead);
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.container:hover {
+  background-color: rgba(255, 255, 255, 1);
+  transform: scale(1.02);
+}
+
+h1 {
+  color: #007bff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 2em;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 1.2em;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
